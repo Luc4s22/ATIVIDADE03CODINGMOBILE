@@ -22,4 +22,4 @@ Foi realizada uma atualização no projeto com melhorias na interface e responsi
 Repositório atualizado com a versão mais recente do projeto.
 
 ## Como Acessar
-A aplicação está online: (lambent-crepe-f92292.netlify.app)
+A aplicação está online: (https://lambent-crepe-f92292.netlify.app)
