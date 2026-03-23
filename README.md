@@ -21,4 +21,5 @@ Foi realizada uma atualização no projeto com melhorias na interface e responsi
 ## 🚀 Projeto no GitHub
 Repositório atualizado com a versão mais recente do projeto.
 
-##Link: lambent-crepe-f92292.netlify.app
+## Como Acessar
+A aplicação está online: (lambent-crepe-f92292.netlify.app)
