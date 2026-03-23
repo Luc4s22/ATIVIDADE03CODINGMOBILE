@@ -1,47 +1,126 @@
-body{
-font-family: Arial;
-background:#322e44;
-margin:0;
-display:flex;
-justify-content:center;
+body {
+font-family: Arial, sans-serif;
+background: #f1f2f6;
+margin: 0;
+padding-bottom: 90px;
 }
 
-.container{
-width:100%;
-max-width:420px;
-padding:20px;
-text-align:center;
-}
-
-input{
-width:94%;
-padding:10px;
-margin-bottom:10px;
-border-radius: 10px;
-}
-
-button{
-width:100%;
-padding:12px;
-background:#897aa5;
-color:white;
-border:none;
-border-radius:8px;
-}
-
-img{
-width:100%;
-margin-top:20px;
-border-radius:10px;
-}
-
-p{
-font-size:14px;
-color: white;
-}
 h1{
-    color: white;
+    text-align: center;
 }
-h2{
-    color: white;
+
+.container {
+max-width: 350px;
+margin: auto;
+padding: 20px;
+color: white;
+background:rgb(15, 15, 52);
+border-radius: 14px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.resultado img {
+width: 70%;
+border-radius: 12px;
+margin-top: 15px;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.area-busca {
+display: flex;
+gap: 8px;
+background: rgb(15, 15, 52);
+padding: 8px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+width: 400px;      
+margin: 20px auto; 
+}
+
+
+.area-busca input {
+width: 130px;
+padding: 50px;
+font-size: 14px;
+}
+
+
+.area-busca button {
+padding: 8px 10px;
+font-size: 14px;
+}
+
+
+.area-busca input {
+flex: 1;
+padding: 12px;
+border-radius: 10px;
+border: 1px solid #ddd;
+font-size: 16px;
+transition: 0.2s;
+
+}
+
+
+.area-busca input:focus {
+outline: none;
+border-color: #6a11cb;
+box-shadow: 0 0 0 2px rgba(106,17,203,0.15);
+}
+
+
+.area-busca button {
+padding: 14px 18px;
+border: none;
+background-color: white;
+color: blue;
+border-radius: 10px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.2s;
+}
+
+
+.area-busca button:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+@media (max-width: 768px) {
+
+.area-busca {
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+margin: 10px;
+}
+
+}
+
+
+@media (min-width: 769px) {
+
+body {
+padding-bottom: 0;
+}
+
+.area-busca {
+position: static;
+max-width: 700px;
+margin: 20px auto;
+border-radius: 12px;
+}
+
+h1{
+text-align: center;
+}
+
 }
